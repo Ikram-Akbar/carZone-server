@@ -11,6 +11,8 @@
  4. Material UI
  5. React hook form
  6. React Reveal
+ 7. Express
+ 8. MongoDB
  
  -------------------------------------------------------
 
