@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const { MongoClient } = require("mongodb");
-const  ObjectId = require('mongodb').ObjectId;
+const ObjectId = require("mongodb").ObjectId;
 require("dotenv").config();
 
 const port = process.env.PORT || 5000;
@@ -11,12 +11,13 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-
-
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.f8emp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+const client = new MongoClient(uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 async function run() {
-  try{
+  try {
     await client.connect();
     const database = client.db("cars_zone");
     const carsCollection = database.collection("cars");
@@ -64,7 +65,9 @@ async function run() {
     // my order get process
     app.get("/myOrders/:email", async (req, res) => {
       const order = req.params.email;
-      const result = await customerOrdersCollection.find({ email: order }).toArray();
+      const result = await customerOrdersCollection
+        .find({ email: order })
+        .toArray();
       res.send(result);
     });
 
@@ -121,10 +124,7 @@ async function run() {
         .toArray();
       res.send(result);
     });
-
-
-  }
-  finally {
+  } finally {
     // await client.close();
   }
 }
