@@ -1,21 +1,28 @@
-### niche-website-server-side-Ikram-Git-Coder
 
-# live site link: https://cars-zone-b1414.web.app/
+## MERN - Full Stack Project  
+### Project Name: Car Zone
+#### Description  : 
+ **CAR ZONE project based on MERN stack.** 
+*MERN stands for MongoDB, Express.js, React.js, and Node.js. It is a full-stack JavaScript solution that helps you build fast, robust, and maintainable web applications using MongoDB as the database, Express.js as the web framework, React.js as the front-end framework, and Node.js as the back-end runtime environment*
 
-# Uses Technology : 
- 1. React js
- 2. React-Router-dom
- 3. React-Bootstrap 
- 4. Material UI
- 5. React hook form
- 6. React Reveal
- 7. Express js
- 8. MongoDB
- # App Details
+*React for the frontend with React Bootstrap and in the backend using Node.js and Express.js.  MongoDB as a database. You can perform **CRUD** operations (Create, Read, Update, and Delete) on data using this stack*
 
- 1. user friendly UI.
- 2. admin panel.
- 3. admin can make or change anythings.
- 4. admin also make or create another role for website.
- 5. customer or user can buy product.
+#### Technology : 
+| Frontend  | Backend |
+|--|--|
+| React Js |Node Js  |
+|React Router Dom |Express Js  |
+|React Hook Form|MongoDB  |
+|React Bootstrap |Nodemon + Cors  |
+|[Client Side Repository](https://github.com/Ikram-Akbar/CarsZone-Client) |[Server Side Repository](hhttps://github.com/Ikram-Akbar/carZone-server) |
+
+
+**Live Link :**  [Car Zone](https://cars-zone-b1414.web.app/%5D%28https://cars-zone-b1414.web.app/)
+
+
+
+
+ 
+
+
 
