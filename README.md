@@ -1,5 +1,3 @@
-Welcome file
-Welcome file
 
 ## MERN - Full Stack Project  
 ### Project Name : Car Zone
